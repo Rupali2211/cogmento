@@ -13,6 +13,7 @@ public class LoginTest {
 		home.validateLogo();
 		PimPage pim=new PimPage();
 		pim.clickOnPimLink();
+		pim.createEmployee();
 		
 	}
 
